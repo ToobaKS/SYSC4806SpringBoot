@@ -1,0 +1,11 @@
+{
+  "buddies": [
+    {
+      "id": 21,
+      "name": "John",
+      "address": "Canada",
+      "phoneNumber": "613"
+    }
+  ],
+  "addressBookId": 1
+}
