@@ -20,8 +20,8 @@ public class HttpRequestTest {
     private TestRestTemplate restTemplate;
 
     @Test
-    public void greetingShouldReturnDefaultMessage() throws Exception {
+    public void addressBookShouldReturnDefaultMessage() throws Exception {
         assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/",
-                String.class)).contains("Hello, World");
+                String.class)).contains("Buddy[id = null, name='Tooba', phone='613, address='Kanata']");
     }
 }
